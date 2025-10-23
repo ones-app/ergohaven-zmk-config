@@ -113,14 +113,15 @@
         caps: caps {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp CAPS &kp CAPS>;
+            bindings = <&kp CAPS>, <&macro_release>, <&kp CAPS>;
+
             label = "CAPS";
         };
 
         to_by: to_by {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(LS(NUMBER_3)) &to_ru>;
+            bindings = <&kp LC(LS(NUMBER_3)) &to 1>;
             label = "TO_BY";
         };
     };
