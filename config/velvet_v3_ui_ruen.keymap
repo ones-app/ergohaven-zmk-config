@@ -30,6 +30,7 @@
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
+            hold-trigger-on-release;
         };
     };
 
@@ -38,19 +39,19 @@
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <14 40>;
+            key-positions = <14 15>;
             layers = <1>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <16 40>;
+            key-positions = <16 15>;
             layers = <0>;
         };
 
         cmbby {
             bindings = <&to_by>;
-            key-positions = <17 40>;
+            key-positions = <17 16>;
         };
     };
 
@@ -112,8 +113,7 @@
         caps: caps {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp CAPS>, <&macro_release>, <&kp CAPS>;
-
+            bindings = <&kp CAPS &kp CAPS>;
             label = "CAPS";
         };
 
