@@ -38,19 +38,19 @@
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <15 14>;
+            key-positions = <14 40>;
             layers = <1>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <15 16>;
+            key-positions = <16 40>;
             layers = <0>;
         };
 
         cmbby {
-            bindings = <&none>;
-            key-positions = <16 17>;
+            bindings = <&to_by>;
+            key-positions = <17 40>;
         };
     };
 
