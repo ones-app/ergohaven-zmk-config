@@ -21,18 +21,6 @@
             tapping-term-ms = <150>;
             hold-while-undecided;
         };
-
-        caps_tab: caps_tab {
-            compatible = "zmk,behavior-hold-tap";
-            label = "CAPS_TAB";
-            bindings = <&caps>, <&kp>;
-
-            #binding-cells = <2>;
-            flavor = "balanced";
-            tapping-term-ms = <200>;
-            hold-trigger-on-release;
-            retro-tap;
-        };
     };
 
     combos {
@@ -40,13 +28,13 @@
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <14 40 24>;
+            key-positions = <>;
             layers = <1>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <15 40 24>;
+            key-positions = <15>;
             layers = <0>;
         };
 
@@ -111,13 +99,6 @@
             tap-ms = <30>;
         };
 
-        caps: caps {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp CAPS &kp CAPS>;
-            label = "CAPS";
-        };
-
         to_by: to_by {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -131,10 +112,10 @@
 
         en {
             bindings = <
-&kp ESC          &kp Q  &kp W          &kp E     &kp R      &mt Y T                               &kp Y  &kp U           &kp I      &kp O     &kp P     &kp BSPC
-&caps_tab 0 TAB  &kp A  &kp S          &kp D     &kp F      &mt H G                               &kp H  &kp J           &kp K      &kp L     &kp SEMI  &kp BSLH
-&kp LSHFT        &kp Z  &kp X          &kp C     &kp V      &mt N B                               &kp N  &kp M           &kp COMMA  &kp DOT   &kp SQT   &kp RSHFT
-                        &kp BACKSPACE  &kp LGUI  &kp LCTRL  &lt 2 SPACE  &kp LEFT_ALT    &kp RET  &mo 3  &cap_sen 6 MB1  &kp LBKT   &kp RBKT
+&kp ESC           &kp Q  &kp W          &kp E     &kp R      &mt Y T                               &kp Y  &kp U           &kp I      &kp O     &kp P     &kp BSPC
+&mt CAPSLOCK TAB  &kp A  &kp S          &kp D     &kp F      &mt H G                               &kp H  &kp J           &kp K      &kp L     &kp SEMI  &kp BSLH
+&kp LSHFT         &kp Z  &kp X          &kp C     &kp V      &mt N B                               &kp N  &kp M           &kp COMMA  &kp DOT   &kp SQT   &kp RSHFT
+                         &kp BACKSPACE  &kp LGUI  &kp LCTRL  &lt 2 SPACE  &kp LEFT_ALT    &kp RET  &mo 3  &cap_sen 6 MB1  &kp LBKT   &kp RBKT
             >;
 
             display-name = "Base";
