@@ -140,10 +140,10 @@
         ru {
             display-name = "Ru";
             bindings = <
-&kp ESC    &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                           &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE                              &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &mt RU_CYRILLIC_HA RU_CYRILLIC_ZE  &kp BSPC
-&trans     &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                           &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O                                &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE                &trans
-&kp LSHFT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                            &kp RU_CYRILLIC_TE  &mt RU_CYRILLIC_HARD_SIGN RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_CYRILLIC_E                  &kp RSHFT
-                                    &kp BACKSPACE         &kp LGUI            &kp LCTRL           &lt 2 SPACE         &kp LEFT_ALT    &kp RET  &mo 4               &cap_sen 6 MB1                                   &kp RU_COMMA         &kp RU_DOT
+&kp ESC    &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                           &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE                              &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp BSPC
+&trans     &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                           &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O                                &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &trans
+&kp LSHFT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                            &kp RU_CYRILLIC_TE  &mt RU_CYRILLIC_HARD_SIGN RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_CYRILLIC_E    &kp RU_CYRILLIC_HA
+                                    &trans                &kp LGUI            &kp LCTRL           &lt 2 SPACE         &kp LEFT_ALT    &kp RET  &mo 4               &cap_sen 6 MB1                                   &kp RU_COMMA         &kp RU_DOT
             >;
         };
 
@@ -151,7 +151,7 @@
             bindings = <
 &trans  &mt F1 N1        &mt F2 NUMBER_2  &mt F3 N3       &mt F4 N4        &mt F5 N5                     &mt F6 N6  &mt F7 KP_NUMBER_7  &mt F8 KP_NUMBER_8  &mt F9 KP_NUMBER_9  &mt F10 N0       &trans
 &trans  &kp KP_NUMBER_0  &kp HOME         &kp UP          &kp END          &kp DELETE                    &kp FSLH   &kp KP_NUMBER_4     &kp KP_NUMBER_5     &kp KP_NUMBER_6     &mt F11 MINUS    &kp ASTRK
-&trans  &kp KP_NUMLOCK   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER                     &none      &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3     &mt F12 KP_PLUS  &trans
+&trans  &tog 2           &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER                     &none      &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3     &mt F12 KP_PLUS  &trans
                          &trans           &trans          &trans           &trans      &trans    &trans  &mo 5      &trans              &kp KP_NUMBER_0     &en KP_DOT
             >;
 
