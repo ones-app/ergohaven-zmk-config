@@ -234,10 +234,10 @@
 
         sculpting {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans   &trans  &trans  &trans                       &kp T     &kp R   &kp E      &kp W   &kp Q  &trans
+&trans  &trans  &trans   &trans  &trans  &trans                       &kp G     &kp F   &kp D      &kp S   &kp A  &trans
+&trans  &trans  &trans   &trans  &trans  &trans                       &kp B     &kp V   &kp C      &kp X   &kp Z  &kp LSHFT
+                &kp RET  &trans  &trans  &trans  &trans    &kp LCTRL  &kp LALT  &trans  &kp SPACE  &trans
             >;
         };
     };
