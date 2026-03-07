@@ -128,10 +128,10 @@
 
         en {
             bindings = <
-&kp ESC           &kp Q  &kp W          &kp E     &kp R      &mt Y T                               &kp Y  &kp U           &kp I      &kp O     &kp P     &kp BSPC
-&mt CAPSLOCK TAB  &kp A  &kp S          &kp D     &kp F      &mt H G                               &kp H  &kp J           &kp K      &kp L     &kp SEMI  &kp DELETE
-&kp LSHFT         &kp Z  &kp X          &kp C     &kp V      &mt N B                               &kp N  &kp M           &kp LPAR   &kp RPAR  &kp SQT   &kp RSHFT
-                         &kp BACKSPACE  &kp LGUI  &kp LCTRL  &lt 2 SPACE  &kp LEFT_ALT    &kp RET  &mo 3  &cap_sen 6 MB1  &kp COMMA  &kp DOT
+&kp ESC    &kp Q  &kp W          &kp E     &kp R      &mt Y T                               &kp Y  &kp U           &kp I      &kp O     &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S          &kp D     &kp F      &mt H G                               &kp H  &kp J           &kp K      &kp L     &kp SEMI  &kp DELETE
+&kp LSHFT  &kp Z  &kp X          &kp C     &kp V      &mt N B                               &kp N  &kp M           &kp LPAR   &kp RPAR  &kp SQT   &kp RSHFT
+                  &kp BACKSPACE  &kp LGUI  &kp LCTRL  &lt 2 SPACE  &kp LEFT_ALT    &kp RET  &mo 3  &cap_sen 6 MB1  &kp COMMA  &kp DOT
             >;
 
             display-name = "Base";
@@ -151,8 +151,8 @@
             bindings = <
 &trans  &mt F1 N1        &mt F2 NUMBER_2  &mt F3 N3       &mt F4 N4        &mt F5 N5                     &mt F6 N6  &mt F7 KP_NUMBER_7  &mt F8 KP_NUMBER_8  &mt F9 KP_NUMBER_9  &mt F10 N0       &trans
 &trans  &kp KP_NUMBER_0  &kp HOME         &kp UP          &kp END          &kp DELETE                    &kp FSLH   &kp KP_NUMBER_4     &kp KP_NUMBER_5     &kp KP_NUMBER_6     &mt F11 MINUS    &kp ASTRK
-&trans  &kp KP_NUMLOCK   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER                     &kp CLCK   &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3     &mt F12 KP_PLUS  &trans
-                         &trans           &trans          &trans           &trans      &trans    &trans  &mo 5      &trans              &kp KP_NUMBER_0     &kp KP_DOT
+&trans  &kp KP_NUMLOCK   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER                     &none      &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3     &mt F12 KP_PLUS  &trans
+                         &trans           &trans          &trans           &trans      &trans    &trans  &mo 5      &trans              &kp KP_NUMBER_0     &en KP_DOT
             >;
 
             display-name = "Nav";
@@ -160,10 +160,10 @@
 
         sym_en {
             bindings = <
-&trans  &kp HASH   &kp LT    &kp EQUAL              &kp GT     &kp GRAVE                    &kp CARET  &kp DQT   &kp MINUS  &kp SQT   &trans    &trans
-&trans  &kp BSLH   &kp LPAR  &kp RIGHT_PARENTHESIS  &en COLON  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &en RBRC  &kp EXCL  &kp QUESTION
-&trans  &kp COMMA  &kp STAR  &kp UNDER              &kp FSLH   &kp DLLR                     &kp AT     &kp PIPE  &kp TILDE  &kp AMPS  &kp DOT   &trans
-                   &trans    &trans                 &trans     &mo 5      &trans    &trans  &trans     &trans    &kp LBKT   &kp RBKT
+&kp GRAVE  &kp HASH   &kp LT    &kp EQUAL              &kp GT     &kp GRAVE                    &kp CARET  &kp DQT   &kp MINUS  &kp SQT   &trans    &trans
+&kp CAPS   &kp BSLH   &kp LPAR  &kp RIGHT_PARENTHESIS  &en COLON  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &en RBRC  &kp EXCL  &kp QUESTION
+&trans     &kp COMMA  &kp STAR  &kp UNDER              &kp FSLH   &kp DLLR                     &kp AT     &kp PIPE  &kp TILDE  &kp AMPS  &kp DOT   &trans
+                      &trans    &trans                 &trans     &mo 5      &trans    &trans  &trans     &trans    &kp LBKT   &kp RBKT
             >;
 
             display-name = "Symbols";
@@ -172,9 +172,9 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&kp RU_CYRILLIC_IO  &en HASH          &en LT    &kp EQUAL              &en GT       &en GRAVE                    &en CARET  &kp RU_DQT  &kp MINUS    &en SQT   &trans      &trans
-&kp RU_NUMERO       &kp RU_BACKSLASH  &kp LPAR  &kp RIGHT_PARENTHESIS  &en COLON    &kp PLUS                     &kp PRCNT  &en LBRC    &kp RU_SEMI  &kp RBRC  &kp EXCL    &kp RU_QMARK
-&trans              &kp RU_COMMA      &kp STAR  &kp UNDER              &kp RU_FSLH  &en DLLR                     &en AT     &en PIPE    &en TILDE    &en AMPS  &kp RU_DOT  &trans
+&kp RU_CYRILLIC_IO  &en HASH          &en LT    &kp EQUAL              &en GT       &en GRAVE                    &en CARET  &kp RU_DQT  &kp MINUS    &en SQT   &kp RU_NUMERO  &trans
+&trans              &kp RU_BACKSLASH  &kp LPAR  &kp RIGHT_PARENTHESIS  &en COLON    &kp PLUS                     &kp PRCNT  &en LBRC    &kp RU_SEMI  &en RBRC  &kp EXCL       &kp RU_QMARK
+&trans              &kp RU_COMMA      &kp STAR  &kp UNDER              &kp RU_FSLH  &en DLLR                     &en AT     &en PIPE    &en TILDE    &en AMPS  &kp RU_DOT     &trans
                                       &trans    &trans                 &trans       &mo 5      &trans    &trans  &trans     &trans      &en LBKT     &en RBKT
             >;
         };
@@ -193,9 +193,9 @@
         mouse {
             bindings = <
 &trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &mo 7   &mkp MB3  &mkp MB2  &mkp MB1  &mo 8                     &mo 8   &mkp MB1  &mkp MB2  &mkp MB3  &mo 7   &trans
+&trans  &mo 7   &mkp MB3  &mkp MB2  &mkp MB1  &trans                    &mo 8   &mkp MB1  &mkp MB2  &mkp MB3  &mo 7   &trans
 &trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-                &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans
+                &trans    &trans    &trans    &mo 8   &trans    &trans  &trans  &trans    &trans    &trans
             >;
 
             display-name = "Mouse";
