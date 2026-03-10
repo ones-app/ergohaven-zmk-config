@@ -128,10 +128,10 @@
 
         en {
             bindings = <
-&kp ESC    &kp Q  &kp W          &kp E     &kp R      &mt Y T                               &kp Y  &kp U           &kp I      &kp O     &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S          &kp D     &kp F      &mt H G                               &kp H  &kp J           &kp K      &kp L     &kp SEMI  &kp DELETE
-&kp LSHFT  &kp Z  &kp X          &kp C     &kp V      &mt N B                               &kp N  &kp M           &kp LPAR   &kp RPAR  &kp SQT   &kp RSHFT
-                  &kp BACKSPACE  &kp LGUI  &kp LCTRL  &lt 2 SPACE  &kp LEFT_ALT    &kp RET  &mo 3  &cap_sen 6 MB1  &kp COMMA  &kp DOT
+&kp ESC    &kp Q  &kp W            &kp E     &kp R      &mt Y T                               &kp Y  &kp U           &kp I      &kp O     &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S            &kp D     &kp F      &mt H G                               &kp H  &kp J           &kp K      &kp L     &kp SEMI  &kp DELETE
+&kp LSHFT  &kp Z  &kp X            &kp C     &kp V      &mt N B                               &kp N  &kp M           &kp LPAR   &kp RPAR  &kp SQT   &kp RSHFT
+                  &kp PRINTSCREEN  &kp LGUI  &kp LCTRL  &lt 2 SPACE  &kp LEFT_ALT    &kp RET  &mo 3  &cap_sen 6 MB1  &kp COMMA  &kp DOT
             >;
 
             display-name = "Base";
@@ -151,7 +151,7 @@
             bindings = <
 &trans  &mt F1 N1        &mt F2 NUMBER_2  &mt F3 N3       &mt F4 N4        &mt F5 N5                     &mt F6 N6       &mt F7 KP_NUMBER_7  &mt F8 KP_NUMBER_8  &mt F9 KP_NUMBER_9  &mt F10 N0       &trans
 &trans  &kp KP_NUMBER_0  &kp HOME         &kp UP          &kp END          &kp DELETE                    &kp FSLH        &kp KP_NUMBER_4     &kp KP_NUMBER_5     &kp KP_NUMBER_6     &mt F11 MINUS    &kp ASTRK
-&trans  &to 2            &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER                     &kp KP_NUMLOCK  &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3     &mt F12 KP_PLUS  &trans
+&trans  &kp BACKSPACE    &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp ENTER                     &kp KP_NUMLOCK  &kp KP_NUMBER_1     &kp KP_NUMBER_2     &kp KP_NUMBER_3     &mt F12 KP_PLUS  &trans
                          &trans           &trans          &trans           &trans      &trans    &trans  &mo 5           &trans              &kp KP_NUMBER_0     &en KP_DOT
             >;
 
