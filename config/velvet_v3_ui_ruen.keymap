@@ -36,7 +36,7 @@
             #binding-cells = <0>;
             bindings = <&lt 2 SPACE>, <&kp SPACE>;
 
-            tapping-term-ms = <75>;
+            tapping-term-ms = <150>;
         };
 
         hz_dance: hz_dance {
@@ -45,7 +45,7 @@
             #binding-cells = <0>;
             bindings = <&kp RU_CYRILLIC_ZE>, <&kp RU_CYRILLIC_HA>;
 
-            tapping-term-ms = <100>;
+            tapping-term-ms = <150>;
         };
 
         zip_auto_mouse: zip_auto_mouse {
