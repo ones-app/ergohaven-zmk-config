@@ -36,7 +36,16 @@
             #binding-cells = <0>;
             bindings = <&lt 2 SPACE>, <&kp SPACE>;
 
-            tapping-term-ms = <50>;
+            tapping-term-ms = <75>;
+        };
+
+        hz_dance: hz_dance {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HZ_DANCE";
+            #binding-cells = <0>;
+            bindings = <&kp RU_CYRILLIC_ZE>, <&kp RU_CYRILLIC_HA>;
+
+            tapping-term-ms = <100>;
         };
 
         zip_auto_mouse: zip_auto_mouse {
@@ -149,7 +158,7 @@
         ru {
             display-name = "Ru";
             bindings = <
-&kp ESC    &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &mt RU_CYRILLIC_IO RU_CYRILLIC_IE                           &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE                              &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp BSPC
+&kp ESC    &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &mt RU_CYRILLIC_IO RU_CYRILLIC_IE                           &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE                              &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &hz_dance            &kp BSPC
 &trans     &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                                          &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O                                &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &trans
 &kp LSHFT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                                           &kp RU_CYRILLIC_TE  &mt RU_CYRILLIC_HARD_SIGN RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_CYRILLIC_E    &kp RU_CYRILLIC_HA
                                     &trans                &kp LGUI            &kp LCTRL           &space_dance                       &kp LEFT_ALT    &kp RET  &mo 4               &cap_sen 6 MB1                                   &kp RU_COMMA         &kp RU_DOT
