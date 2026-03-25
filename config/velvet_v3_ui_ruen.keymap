@@ -10,7 +10,7 @@
 
 &mt { flavor = "balanced"; };
 
-&lt { flavor = "balanced"; };
+&lt { flavor = "hold-preferred"; };
 
 / {
     behaviors {
