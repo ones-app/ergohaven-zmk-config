@@ -10,7 +10,10 @@
 
 &mt { flavor = "balanced"; };
 
-&lt { flavor = "hold-preferred"; };
+&lt {
+    flavor = "hold-preferred";
+    tapping-term-ms = <150>;
+};
 
 / {
     behaviors {
