@@ -10,6 +10,8 @@
 
 &mt { flavor = "balanced"; };
 
+&lt { flavor = "balanced"; };
+
 / {
     behaviors {
         cap_sen: cap_sen {
@@ -44,8 +46,6 @@
             label = "HZ_DANCE";
             #binding-cells = <0>;
             bindings = <&kp RU_CYRILLIC_ZE>, <&kp RU_CYRILLIC_HA>;
-
-            tapping-term-ms = <150>;
         };
 
         zip_auto_mouse: zip_auto_mouse {
