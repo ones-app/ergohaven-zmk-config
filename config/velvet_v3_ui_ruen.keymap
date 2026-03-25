@@ -35,6 +35,8 @@
             label = "SPACE_DANCE";
             #binding-cells = <0>;
             bindings = <&custom_lt 2 SPACE>, <&kp SPACE>;
+
+            tapping-term-ms = <100>;
         };
 
         hz_dance: hz_dance {
