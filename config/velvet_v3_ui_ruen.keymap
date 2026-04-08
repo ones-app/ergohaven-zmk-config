@@ -271,7 +271,7 @@
 &trackball { cpi = <2000>; };
 
 &trackball_listener {
-    input-processors = <&zip_auto_mouse 6 500>, <&zip_xy_scaler 9 20>;
+    input-processors = <&zip_auto_mouse 6 500>, <&zip_xy_scaler 1 4>;
 
     scroller {
         layers = <7>;
@@ -283,6 +283,6 @@
 
     sniper {
         layers = <8>;
-        input-processors = <&zip_xy_scaler 1 4>;
+        input-processors = <&zip_xy_scaler 9 20>;
     };
 };
